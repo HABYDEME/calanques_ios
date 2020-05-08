@@ -20,6 +20,7 @@
 		0F5C04052464351300AFBB31 /* CalanqueCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5C04042464351300AFBB31 /* CalanqueCellTableViewCell.swift */; };
 		0F5C040724647A2500AFBB31 /* imageRonde.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5C040624647A2500AFBB31 /* imageRonde.swift */; };
 		0F5C040924648CD000AFBB31 /* CalanqueCellAlternative.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5C040824648CD000AFBB31 /* CalanqueCellAlternative.swift */; };
+		0F5C040B24659F4B00AFBB31 /* DetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5C040A24659F4B00AFBB31 /* DetailController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		0F5C04042464351300AFBB31 /* CalanqueCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalanqueCellTableViewCell.swift; sourceTree = "<group>"; };
 		0F5C040624647A2500AFBB31 /* imageRonde.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imageRonde.swift; sourceTree = "<group>"; };
 		0F5C040824648CD000AFBB31 /* CalanqueCellAlternative.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalanqueCellAlternative.swift; sourceTree = "<group>"; };
+		0F5C040A24659F4B00AFBB31 /* DetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 				0F5C03FE2463320700AFBB31 /* ControllerAvecTableView.swift */,
 				0F5C04002463325100AFBB31 /* ControllerAvecCarte.swift */,
 				0F5C04022463329800AFBB31 /* TableViewIntegreeController.swift */,
+				0F5C040A24659F4B00AFBB31 /* DetailController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -185,6 +188,7 @@
 			files = (
 				0F5C03FB2463285200AFBB31 /* Calanques.swift in Sources */,
 				0F5C040924648CD000AFBB31 /* CalanqueCellAlternative.swift in Sources */,
+				0F5C040B24659F4B00AFBB31 /* DetailController.swift in Sources */,
 				0F5C040724647A2500AFBB31 /* imageRonde.swift in Sources */,
 				0F5C03FF2463320700AFBB31 /* ControllerAvecTableView.swift in Sources */,
 				0F5C04032463329800AFBB31 /* TableViewIntegreeController.swift in Sources */,
