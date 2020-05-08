@@ -8,23 +8,43 @@
 
 import UIKit
 
-class ControllerAvecTableView: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-    }
+class ControllerAvecTableView: UIViewController, UITableViewDelegate, UITableViewDataSource {
+  
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBOutlet weak var TableView: UITableView!
+    
+    var calanques: [Calanque] = []
+    var cellId = "Alternative"
+    
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        TableView.delegate = self
+        TableView.dataSource = self
+        calanques = CalanqueCollection().all()
+        
     }
-    */
+    
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+          return calanques.count
+      }
+      
+      func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+          let calanque = calanques[indexPath.row]
+           if let cell = tableView.dequeueReusableCell(withIdentifier: cellId) as? CalanqueCellAlternative{
+               cell.calanque = calanque
+               return cell
+           }
+          return UITableViewCell()
+      }
+    
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 200
+    }
+   
 
 }
+//---------COMMENTAIRE------COMMENTAIRE----------COMMENTAIRE-----------//
+
