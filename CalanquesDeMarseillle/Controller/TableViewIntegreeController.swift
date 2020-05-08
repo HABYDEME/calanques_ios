@@ -8,6 +8,7 @@
 
 import UIKit
 
+let segueID = "Detail"
 
 class TableViewIntegreeController: UITableViewController {
 
@@ -53,21 +54,27 @@ class TableViewIntegreeController: UITableViewController {
                 cell.imageView?.image = calanque.image
                 return cell
             //Ajoute du texte et des images
-       
-        
-        
-        
         }
-        
-
-
     }
     
     override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
        return 160
 //Donne une taille à la ligne
     }
-   
+    
+        override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath){
+            performSegue(withIdentifier: segueID, sender: calanques[indexPath.row])
+            
+        }
+        override func prepare(for segue: UIStoryboardSegue, sender: Any?){
+            if segue.identifier == segueID{
+                if let vc = segue.destination as? DetailController{
+                    vc.calanqueRecue = sender as? Calanque
+                }
+            }
+            
+        }
+    
 
     /*
     // Override to support conditional editing of the table view.
@@ -77,17 +84,29 @@ class TableViewIntegreeController: UITableViewController {
     }
     */
 
-    /*
+    
     // Override to support editing the table view.
     override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
         if editingStyle == .delete {
-            // Delete the row from the data source
+            calanques.remove(at: indexPath.row)
             tableView.deleteRows(at: [indexPath], with: .fade)
-        } else if editingStyle == .insert {
-            // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
+            
+        
         }    
     }
-    */
+    
+    
+    @IBAction func reloadAction(_ sender: Any) {
+        
+        calanques = CalanqueCollection().all()
+        tableView.reloadData()
+        
+    }
+    
+    
+    
+    
+    
 
     /*
     // Override to support rearranging the table view.
