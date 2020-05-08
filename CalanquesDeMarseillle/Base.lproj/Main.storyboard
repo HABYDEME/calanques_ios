@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="49e-Tb-3d3">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="VFf-4E-15l">
+    <device id="retina6_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -12,23 +12,23 @@
             <objects>
                 <viewController id="9pv-A4-QxB" customClass="ControllerAvecTableView" customModule="CalanquesDeMarseillle" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tsR-hK-woN">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="port pin" translatesAutoresizingMaskIntoConstraints="NO" id="4Hq-em-hIy">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                             </imageView>
                             <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jHL-F6-Kqk">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="Tx0-8m-S8c">
-                                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
                                         <visualEffectView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HgL-iu-fRb">
-                                            <rect key="frame" x="0.0" y="0.0" width="174" height="768"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="174" height="714"/>
                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                             <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="fhP-wd-VDw">
-                                                <rect key="frame" x="0.0" y="0.0" width="174" height="768"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="174" height="714"/>
                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                             </view>
                                             <vibrancyEffect>
@@ -40,7 +40,7 @@
                                 <blurEffect style="regular"/>
                             </visualEffectView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Visitez les calanques" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VNZ-29-GxE">
-                                <rect key="frame" x="10" y="98" width="394" height="30"/>
+                                <rect key="frame" x="10" y="66" width="394" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="QB7-20-5PL"/>
                                 </constraints>
@@ -49,7 +49,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="ham-ba-Mvg">
-                                <rect key="frame" x="10" y="136" width="394" height="667"/>
+                                <rect key="frame" x="10" y="104" width="394" height="645"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="Alternative" rowHeight="200" id="rNf-cu-FgH" customClass="CalanqueCellAlternative" customModule="CalanquesDeMarseillle" customModuleProvider="target">
@@ -154,21 +154,141 @@
             <objects>
                 <viewController id="8rJ-Kc-sve" customClass="ControllerAvecCarte" customModule="CalanquesDeMarseillle" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="QS5-Rx-YEW">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="Rux-3N-XTk">
+                                <rect key="frame" x="0.0" y="56" width="414" height="703"/>
+                            </mapView>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="Rux-3N-XTk" firstAttribute="trailing" secondItem="O1u-W8-tvY" secondAttribute="trailing" id="JF6-jl-KFa"/>
+                            <constraint firstItem="Rux-3N-XTk" firstAttribute="bottom" secondItem="O1u-W8-tvY" secondAttribute="bottom" id="OW9-TT-URx"/>
+                            <constraint firstItem="Rux-3N-XTk" firstAttribute="leading" secondItem="O1u-W8-tvY" secondAttribute="leading" id="fAt-EN-KsQ"/>
+                            <constraint firstItem="Rux-3N-XTk" firstAttribute="top" secondItem="O1u-W8-tvY" secondAttribute="top" id="k4X-eH-ybQ"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="O1u-W8-tvY"/>
                     </view>
-                    <navigationItem key="navigationItem" id="gfI-cr-LFo"/>
+                    <navigationItem key="navigationItem" id="gfI-cr-LFo">
+                        <nil key="title"/>
+                        <segmentedControl key="titleView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" id="eTp-Qa-28n">
+                            <rect key="frame" x="93.666666666666686" y="12" width="227" height="32"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <segments>
+                                <segment title="Standard"/>
+                                <segment title="Satellite"/>
+                                <segment title="Hybride"/>
+                            </segments>
+                            <connections>
+                                <action selector="segmentedChanged:" destination="8rJ-Kc-sve" eventType="valueChanged" id="aK9-4e-myQ"/>
+                            </connections>
+                        </segmentedControl>
+                        <barButtonItem key="rightBarButtonItem" title="Item" image="placeholder" id="bpU-1N-dfx">
+                            <connections>
+                                <action selector="getPosition:" destination="8rJ-Kc-sve" id="3eh-It-Zq9"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="mapView" destination="Rux-3N-XTk" id="72G-An-gnf"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1673.913043478261" y="726.5625"/>
+            <point key="canvasLocation" x="1551" y="727"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ebt-Ka-jIi">
+            <objects>
+                <viewController id="VFf-4E-15l" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="HqU-U0-HoI">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sugiton" translatesAutoresizingMaskIntoConstraints="NO" id="fBT-rg-meG">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JaS-Ry-C71">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="HGQ-Oi-6vm">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <visualEffectView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kVi-gi-ZJW">
+                                            <rect key="frame" x="0.0" y="0.0" width="174" height="768"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="EgM-o7-IBJ">
+                                                <rect key="frame" x="0.0" y="0.0" width="174" height="768"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                            </view>
+                                            <vibrancyEffect>
+                                                <blurEffect style="regular"/>
+                                            </vibrancyEffect>
+                                        </visualEffectView>
+                                    </subviews>
+                                </view>
+                                <blurEffect style="regular"/>
+                            </visualEffectView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pJG-kr-qyH" customClass="BoutonArrondi" customModule="CalanquesDeMarseillle" customModuleProvider="target">
+                                <rect key="frame" x="20" y="792" width="374" height="50"/>
+                                <color key="backgroundColor" red="0.18823529411764706" green="0.66666666666666663" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="KhF-2z-PFF"/>
+                                </constraints>
+                                <state key="normal" title="Visitez les calanques">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="49e-Tb-3d3" kind="show" id="5lW-Fn-Ycf"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sugiton" translatesAutoresizingMaskIntoConstraints="NO" id="xZJ-NM-4SL" customClass="imageRonde" customModule="CalanquesDeMarseillle" customModuleProvider="target">
+                                <rect key="frame" x="119.66666666666669" y="74" width="175" height="175"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="175" id="sI7-Zh-hKo"/>
+                                    <constraint firstAttribute="width" constant="175" id="x6Q-ZW-N0U"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Un jolie coin de nature au coeur de la métropole Marseillaise" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9kO-DO-eTN">
+                                <rect key="frame" x="20" y="269" width="374" height="503"/>
+                                <fontDescription key="fontDescription" name="MuktaMahee-Bold" family="Mukta Mahee" pointSize="21"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="fBT-rg-meG" secondAttribute="bottom" id="868-k5-lqU"/>
+                            <constraint firstItem="pJG-kr-qyH" firstAttribute="top" secondItem="9kO-DO-eTN" secondAttribute="bottom" constant="20" id="Bgw-D9-aJr"/>
+                            <constraint firstItem="pJG-kr-qyH" firstAttribute="leading" secondItem="VHi-AW-cYf" secondAttribute="leading" constant="20" id="Cyz-gC-q9y"/>
+                            <constraint firstItem="fBT-rg-meG" firstAttribute="top" secondItem="HqU-U0-HoI" secondAttribute="top" id="E1N-Yl-uiB"/>
+                            <constraint firstItem="VHi-AW-cYf" firstAttribute="trailing" secondItem="pJG-kr-qyH" secondAttribute="trailing" constant="20" id="N8U-Wj-4rV"/>
+                            <constraint firstAttribute="bottom" secondItem="JaS-Ry-C71" secondAttribute="bottom" id="OW9-xq-2WH"/>
+                            <constraint firstItem="JaS-Ry-C71" firstAttribute="trailing" secondItem="VHi-AW-cYf" secondAttribute="trailing" id="TNG-Cv-jxv"/>
+                            <constraint firstItem="VHi-AW-cYf" firstAttribute="trailing" secondItem="9kO-DO-eTN" secondAttribute="trailing" constant="20" id="a20-F9-GfI"/>
+                            <constraint firstItem="JaS-Ry-C71" firstAttribute="top" secondItem="HqU-U0-HoI" secondAttribute="top" id="eMI-mx-KAO"/>
+                            <constraint firstItem="fBT-rg-meG" firstAttribute="leading" secondItem="VHi-AW-cYf" secondAttribute="leading" id="erX-Pl-3Z2"/>
+                            <constraint firstItem="VHi-AW-cYf" firstAttribute="bottom" secondItem="pJG-kr-qyH" secondAttribute="bottom" constant="20" id="hd1-9F-Trd"/>
+                            <constraint firstItem="xZJ-NM-4SL" firstAttribute="centerX" secondItem="HqU-U0-HoI" secondAttribute="centerX" id="kg2-wO-BAz"/>
+                            <constraint firstItem="fBT-rg-meG" firstAttribute="trailing" secondItem="VHi-AW-cYf" secondAttribute="trailing" id="lpT-Hr-VE4"/>
+                            <constraint firstItem="9kO-DO-eTN" firstAttribute="leading" secondItem="VHi-AW-cYf" secondAttribute="leading" constant="20" id="myB-GX-tzs"/>
+                            <constraint firstItem="xZJ-NM-4SL" firstAttribute="top" secondItem="VHi-AW-cYf" secondAttribute="top" constant="30" id="odB-2H-pPv"/>
+                            <constraint firstItem="JaS-Ry-C71" firstAttribute="leading" secondItem="VHi-AW-cYf" secondAttribute="leading" id="sdN-9W-Pqx"/>
+                            <constraint firstItem="9kO-DO-eTN" firstAttribute="top" secondItem="xZJ-NM-4SL" secondAttribute="bottom" constant="20" id="x2u-cb-Fdj"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="VHi-AW-cYf"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HfL-kl-OyQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-726.08695652173924" y="0.6696428571428571"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="yl2-sM-qoP">
             <objects>
                 <tabBarController id="49e-Tb-3d3" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="pki-TO-5t3"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="W28-zg-YXA">
                         <rect key="frame" x="0.0" y="975" width="768" height="49"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
@@ -189,20 +309,20 @@
             <objects>
                 <tableViewController id="imp-ed-GRn" customClass="TableViewIntegreeController" customModule="CalanquesDeMarseillle" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="EWL-mD-PYr">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="reuseIdentifier" id="XM1-2H-2VZ">
-                                <rect key="frame" x="0.0" y="28" width="414" height="43.5"/>
+                                <rect key="frame" x="0.0" y="28" width="414" height="43.666667938232422"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="XM1-2H-2VZ" id="mGp-6x-m17">
-                                    <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="43.666667938232422"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                             </tableViewCell>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="CalanqueCellTableViewCell" rowHeight="186" id="9Ak-Xs-qI1" customClass="CalanqueCellTableViewCell" customModule="CalanquesDeMarseillle" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="71.5" width="414" height="186"/>
+                                <rect key="frame" x="0.0" y="71.666667938232422" width="414" height="186"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="9Ak-Xs-qI1" id="h5q-2Z-OBZ">
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="186"/>
@@ -228,7 +348,7 @@
                                             </constraints>
                                         </view>
                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="M4U-BP-yux" customClass="imageRonde" customModule="CalanquesDeMarseillle" customModuleProvider="target">
-                                            <rect key="frame" x="8" y="31.5" width="125" height="125"/>
+                                            <rect key="frame" x="8" y="31.666666666666671" width="125" height="125.00000000000001"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="125" id="qOj-YV-HKe"/>
                                                 <constraint firstAttribute="width" constant="125" id="rgo-kW-Lql"/>
@@ -270,25 +390,25 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AoS-nU-AcV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1673.913043478261" y="0.6696428571428571"/>
+            <point key="canvasLocation" x="1552" y="0.0"/>
         </scene>
         <!--Detail Controller-->
         <scene sceneID="Bsq-mO-ImQ">
             <objects>
                 <viewController id="cnF-ue-9n4" customClass="DetailController" customModule="CalanquesDeMarseillle" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="TfS-nu-XL5">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Iyj-9Z-qXU" customClass="imageRonde" customModule="CalanquesDeMarseillle" customModuleProvider="target">
-                                <rect key="frame" x="107" y="98" width="200" height="200"/>
+                                <rect key="frame" x="107" y="66" width="200" height="200"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="200" id="6Mh-bG-F9c"/>
                                     <constraint firstAttribute="width" constant="200" id="E4l-Ui-NgA"/>
                                 </constraints>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="eeA-7G-7g3">
-                                <rect key="frame" x="16" y="318" width="382" height="485"/>
+                                <rect key="frame" x="16" y="286" width="382" height="463"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -315,7 +435,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Baf-dn-cd5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2402.898550724638" y="0.6696428571428571"/>
+            <point key="canvasLocation" x="2267" y="1"/>
         </scene>
         <!--Table View 1-->
         <scene sceneID="gBH-kc-gSl">
@@ -324,7 +444,7 @@
                     <tabBarItem key="tabBarItem" title="Table View 1" image="list" id="acW-dT-cKf"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Wiy-fA-EaG">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -343,7 +463,7 @@
                     <tabBarItem key="tabBarItem" title="Table View 2" image="list" id="glW-b1-Y0D"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="KUo-zC-IJJ">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -362,7 +482,7 @@
                     <tabBarItem key="tabBarItem" title="Carte" image="earth" id="cPa-gy-q4n"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="x84-wA-JAx">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -382,6 +502,8 @@
         <image name="callelongue" width="1600" height="1066"/>
         <image name="earth" width="32" height="32"/>
         <image name="list" width="32" height="32"/>
+        <image name="placeholder" width="32" height="32"/>
         <image name="port pin" width="1024" height="684"/>
+        <image name="sugiton" width="1600" height="896"/>
     </resources>
 </document>
