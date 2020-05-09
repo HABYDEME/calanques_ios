@@ -23,6 +23,7 @@
 		0F5C040B24659F4B00AFBB31 /* DetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5C040A24659F4B00AFBB31 /* DetailController.swift */; };
 		0F5C040D2465B81100AFBB31 /* BoutonArrondi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5C040C2465B81100AFBB31 /* BoutonArrondi.swift */; };
 		0F5C040F2466129900AFBB31 /* MonAnnotations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5C040E2466129900AFBB31 /* MonAnnotations.swift */; };
+		0F5C04112466ABA100AFBB31 /* MonAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5C04102466ABA100AFBB31 /* MonAnnotationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		0F5C040A24659F4B00AFBB31 /* DetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailController.swift; sourceTree = "<group>"; };
 		0F5C040C2465B81100AFBB31 /* BoutonArrondi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoutonArrondi.swift; sourceTree = "<group>"; };
 		0F5C040E2466129900AFBB31 /* MonAnnotations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonAnnotations.swift; sourceTree = "<group>"; };
+		0F5C04102466ABA100AFBB31 /* MonAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonAnnotationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				0F5C040624647A2500AFBB31 /* imageRonde.swift */,
 				0F5C040824648CD000AFBB31 /* CalanqueCellAlternative.swift */,
 				0F5C040C2465B81100AFBB31 /* BoutonArrondi.swift */,
+				0F5C04102466ABA100AFBB31 /* MonAnnotationView.swift */,
 			);
 			path = Vue;
 			sourceTree = "<group>";
@@ -204,6 +207,7 @@
 				0F5C040F2466129900AFBB31 /* MonAnnotations.swift in Sources */,
 				0F5C04012463325100AFBB31 /* ControllerAvecCarte.swift in Sources */,
 				0F5C03FD24632D4000AFBB31 /* CalanqueCollection.swift in Sources */,
+				0F5C04112466ABA100AFBB31 /* MonAnnotationView.swift in Sources */,
 				0F5C04052464351300AFBB31 /* CalanqueCellTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
