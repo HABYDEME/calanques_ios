@@ -20,7 +20,16 @@ class ControllerAvecCarte: UIViewController, MKMapViewDelegate {
         super.viewDidLoad()
         mapView.delegate = self
         addAnnotation()
+        NotificationCenter.default.addObserver(self, selector:
+            #selector(notifDetail), name: Notification.Name("detail"), object: nil)
+        
        
+    }
+    @objc func notifDetail(notification: Notification) {
+        if let calanque = notification.object as? Calanque {
+            print("J' ai une calanque")
+            toDetail(calanque: calanque)
+        }
     }
     
     func toDetail(calanque: Calanque) {
