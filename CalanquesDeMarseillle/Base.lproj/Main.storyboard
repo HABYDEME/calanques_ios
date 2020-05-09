@@ -192,6 +192,7 @@
                     </navigationItem>
                     <connections>
                         <outlet property="mapView" destination="Rux-3N-XTk" id="72G-An-gnf"/>
+                        <segue destination="cnF-ue-9n4" kind="show" identifier="Detail" id="77s-FG-nIJ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
@@ -435,7 +436,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Baf-dn-cd5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2267" y="1"/>
+            <point key="canvasLocation" x="2320" y="1"/>
         </scene>
         <!--Table View 1-->
         <scene sceneID="gBH-kc-gSl">
@@ -496,7 +497,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="1aO-Pd-DWI"/>
+        <segue reference="77s-FG-nIJ"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="callelongue" width="1600" height="1066"/>
