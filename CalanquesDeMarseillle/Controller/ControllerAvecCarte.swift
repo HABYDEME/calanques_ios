@@ -22,8 +22,16 @@ class ControllerAvecCarte: UIViewController, MKMapViewDelegate {
         addAnnotation()
         NotificationCenter.default.addObserver(self, selector:
             #selector(notifDetail), name: Notification.Name("detail"), object: nil)
-        
-       
+        if calanques.count > 5 {
+            let premiere = calanques[5].coordonnee
+            setup(coordonnees: premiere)
+        }
+    }
+    
+    func setup(coordonnees: CLLocationCoordinate2D) {
+        let span = MKCoordinateSpan(latitudeDelta: 0.30, longitudeDelta: 0.30)
+        let region = MKCoordinateRegion(center: coordonnees, span: span)
+        mapView.setRegion(region, animated: true)
     }
     @objc func notifDetail(notification: Notification) {
         if let calanque = notification.object as? Calanque {
